@@ -43,5 +43,12 @@ private:
 	//Find Attached Input Component
 	void SetupInputComponent();
 
+	//return hit for first actor in reach
 	const FHitResult GetFirstPhysicsBodyInReach();
+
+	//return current start of reach line
+	FVector GetReachLineStart();
+
+	//return current end of reach line
+	FVector GetReachLineEnd();
 };
