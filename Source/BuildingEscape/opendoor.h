@@ -40,4 +40,6 @@ private:
 
 	AActor* ActorThatOpens;	
 	AActor* Owner;	//the door that own
+
+	float GetTotalMassOfActorsOnPlate();
 };
